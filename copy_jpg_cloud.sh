@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Define the search directory
-SEARCH_DIR="/run/media/erickrosa/Seagate Backup Plus Drive/fotosnossas"
+SEARCH_DIR=""
 
 # Nextcloud WebDAV URL
-WEBDAV_URL="http://100.109.17.95:10081/remote.php/dav/files/erick/Photos/fotosnossas"
+WEBDAV_URL=""
 
 # Your Nextcloud username and password
-USERNAME="erick"
-PASSWORD="Xjk6n4b1s!105994"
+USERNAME=""
+PASSWORD=""
 
 # Log file
-LOGFILE="/home/erickrosa/bash-scripts/upload.log"
+LOGFILE="/home/username/bash-scripts/upload.log"
 
 # Find .jpg files and upload them
 find "$SEARCH_DIR" -type f -name "*.jpg" | while read filename; do
